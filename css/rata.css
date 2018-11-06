@@ -1,0 +1,35 @@
+/*重置样式表   reset.css / normalize.css*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;  /*去除下划线*/
+    color: #000;
+}
+ul,ol{
+    list-style: none;   /*去列表默认的点 等样式*/
+}
+input{
+    outline: none;
+    border: 0;
+}
+
+.lt{
+    float: left;
+}
+.rt{
+    float: right;
+}
+.clear:before,.clear:after{
+    content: "";
+    display: block;
+}
+.clear{
+    zoom: 1;
+
+}
+.clear:after{
+    clear: both;
+}

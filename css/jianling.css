@@ -1,0 +1,375 @@
+body{
+    font-size: 12px;
+}
+.header{
+    width: 100%;
+    height: 42px;
+    color: #464646;
+     background: url("../img/top.jpg");
+    background-repeat: repeat-x;
+}
+.head{
+    width: 1000px;
+    height: 42px;
+    margin: auto;
+}
+.left{
+    width: 460px;
+    height: 42px;
+    position: relative;
+}
+i{
+    background: url("../img/top.jpg")no-repeat;
+    position: absolute;
+}
+.i1{
+    width: 225px;
+    height: 42px;
+    float: left;
+    background-position: 0 -42px; ;
+}
+.i2{
+    width: 230px;
+    height: 42px;
+    left: 230px;
+    background-position: 0 -84px;
+}
+.right{
+    width: 250px;
+    height: 42px;
+    /*background: floralwhite;*/
+}
+.right a{
+    line-height: 42px;
+    border-right: 1px solid #BFC6D7;
+    padding: 0 9px;
+}
+.right a:hover{
+   color:  #0096D0
+}
+.i3{
+    display: block;
+    background-position: 10px -126px;
+    width: 117px;
+    height: 36px;
+    margin-top: -43px;
+    margin-left: 132px;
+}
+.right .i3 span{
+    display: block;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+.nav{
+    background-position: 0 0px;
+    background-repeat: repeat-x;
+    height: 79px;
+    width: 100%;
+    background: url("../img/spr%20(1).png");
+}
+.navinner{
+    width: 1000px;
+    margin: 0 auto;
+    /*background: paleturquoise;*/
+    height: 79px;
+    position: relative;
+}
+.spr{
+    background: url("../img/spr%20(1).png")no-repeat;
+    position: absolute;
+}
+.logo{
+    float: left;
+    width: 133px;
+    height: 77px;
+    background-position: 0 -233px;
+}
+.jl{
+    float: left;
+    width: 194px;
+    height: 77px;
+    background-position: 0 -79px;
+    left: 132px;
+}
+.jl:hover{
+    background-position: 0 -156px;
+}
+.ul{
+    float: right;
+    width: 673px;
+    height: 77px;
+    overflow: hidden;
+}
+.ul li{
+    float: left;
+}
+.ul li a{
+    display: block;
+    height: 77px;
+    overflow: hidden;
+}
+.btn{
+    background: url("../img/btns.jpg");
+}
+.a1{
+    width: 101px;
+    background-position: 0 0;
+}
+.a1:hover{
+    background-position: 0 -77px;
+}
+.a2{
+    width: 117px;
+    background-position: -101px 0;
+}
+.a2:hover{
+    background-position: -101px -77px;
+}
+.a3{
+    width: 105px;
+    background-position: -339px 0;
+}
+.a3:hover{
+    background-position: -339px -77px;
+}
+.a4{
+    width: 122px;
+    background-position: -444px 0;
+}
+.a4:hover{
+    background-position: -444px -77px;
+}
+.a5{
+    width: 103px;
+    background-position: -566px 0;
+}
+.a5:hover{
+    background-position: -566px -77px;
+}
+.banner{
+    background: url("../img/bg1%20(1).jpg")no-repeat top center;
+    width: 100%;
+    /*height: 987px;*/
+    position: relative;
+}
+.top{
+    height: 20px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 210;
+    position: absolute;
+    background: rgba(0,0,0,.8);
+}
+.cont2{
+    height: 900px;
+}
+.content{
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    z-index: 202;
+    opacity: 0.5;
+}
+.cont2{
+    height: 1588px;
+}
+
+.ban{
+    position: relative;
+    width: 1200px;
+    height: 987px;
+    margin: 0 auto;
+    background: url("../img/cont1.jpg");
+}
+.an{
+    background: url("../img/btn-spr.png")no-repeat;
+}
+.video{
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    margin-left: 390px;
+    width: 82px;
+    height: 82px;
+    background-position: -24px -93px;
+}
+.tmbj{
+    position: absolute;
+    top: 618px;
+    left: 50%;
+    margin-left: -104px;
+    width: 240px;
+    height: 66px;
+    background-position: -15px -16px;
+}
+.four{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.xqfl{
+    position: absolute;
+    margin-left: -530px;
+    top: 686px;
+    left: 50%;
+    display: block;
+    width: 358px;
+    height: 250px;
+    background: url(../img/enter-btn.png) no-repeat -21px -398px;
+}
+.xqfl:hover{
+    background-position: -21px -109px;
+}
+.xbzt{
+    display: block;
+    position: absolute;
+    top: 686px;
+    left: 50%;
+    margin-left: -233px;
+    width:231px;
+    height: 270px;
+    background: url(../img/enter-btn.png) no-repeat -434px -398px;
+
+}
+.xbzt:hover{
+    background-position:-434px -109px;
+}
+.hdjh{
+    position: absolute;
+    top: 686px;
+    left: 50%;
+    margin-left: 26px;
+    width: 238px;
+    height: 270px;
+    background: url(../img/enter-btn.png) no-repeat -752px -398px
+}
+.hdjh:hover{
+    background-position: -752px -109px;  ;
+
+}
+.zsdl{
+    position: absolute;
+    top: 686px;
+    left: 50%;
+    margin-left: 176px;
+    width: 358px;
+    height: 270px;
+    background: url(../img/enter-btn.png) no-repeat -1015px -109px;
+}
+.zsdl:hover{
+   background-position:  -1015px -398px;
+}
+.cont2{
+    width: 100%;
+    height: 1588px;
+    background: url("../img/bg2.jpg")no-repeat top center;;
+    margin-top: 2px;
+}
+.contt{
+    position: relative;
+    width: 1200px;
+    height: 1588px;
+    margin: 0 auto;
+    background: url("../img/cont2.jpg")no-repeat top center;
+}
+.zuo{
+    float: left;
+    width: 50%;
+}
+.img1{
+    position: absolute;
+    top: 53px;
+    width: 530px;
+    height: 499px;
+    right: 50%;
+}
+.img3{
+    position: absolute;
+    top: 552px;
+    width: 499px;
+    height: 532px;
+    right: 50%;
+}
+.img5{
+    position: absolute;
+    top: 861px;
+    width: 530px;
+    height: 499px;
+    right: 50%;
+}
+.you{
+    float: right;
+    width: 50%;
+}
+.img2{
+    top: 369px;
+    width: 530px;
+    height: 499px;
+    left: 50%;
+    position: absolute;
+}
+.img4{
+    top: 677px;
+    width: 499px;
+    height: 532px;
+    position: absolute;
+    left: 50%;
+}
+.img6{
+    top: 1156px;
+    margin-left: -222px;
+    width: 721px;
+    height: 431px;
+    position: absolute;
+    left: 50%;
+}
+.footer{
+    width: 100%;
+    height: 165px;
+    background:  black;
+    color:  #494949;
+}
+.foot{
+    width: 1040px;
+    position: relative;
+    margin: auto;
+    height: 165px;
+    /*padding: 30px 20px;*/
+    color: #a5a5a5;
+    /*margin-top: -2000px;*/
+}
+ .foot .footleft{
+    float: left;
+    display: inline;
+}
+.footleft .a{
+    display: block;
+    background: url("../img/foot-dark.png")no-repeat;
+}
+.footleft .teng{
+    float: left;
+    width: 180px;
+    height: 35px;
+    margin-top: 42px;
+}
+.ncs{
+    position: absolute;
+    background:url("../img/spr.png")no-repeat;
+    background-position:  0 -628px;
+    width: 126px;
+    height: 32px;
+    margin-top: 42px;
+}
+.footright{
+    float: right;
+    width: 682px;
+}
+.footright{
+    margin-top:22px ;
+}
+.footright p{
+    margin-top: 3px;
+}
